@@ -1,32 +1,28 @@
 {
-  "name": "passport-saml",
+  "name": "passport-saml-onelogin",
   "version": "0.5.2",
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/bergie/passport-saml/raw/master/LICENSE"
+      "url": "https://github.com/alumbang/passport-saml-onelogin/raw/master/LICENSE"
     }
   ],
   "keywords": [
     "saml",
     "adfs",
     "sso",
-    "shibboleth"
+    "shibboleth",
+    "onelogin"
   ],
-  "description": "SAML 2.0 authentication strategy for Passport",
+  "description": "SAML 2.0 authentication strategy for Passport with modifications for OneLogin integration",
   "author": {
-    "name": "Henri Bergius",
-    "email": "henri.bergius@iki.fi",
-    "url": "http://bergie.iki.fi"
+    "name": "Andrew Lumbang",
+    "email": "alumbang@gmail.com"
   },
-  "contributors": [
-    "Michael Bosworth",
-    "Herbert Vojčík",
-    "Peter Loer"
-  ],
+  "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bergie/passport-saml.git"
+    "url": "https://github.com/alumbang/passport-saml-onelogin.git"
   },
   "main": "./lib/passport-saml",
   "dependencies": {
