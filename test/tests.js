@@ -348,7 +348,7 @@ describe( 'passport-saml /', function() {
                 '$': { 'xmlns:saml': 'urn:oasis:names:tc:SAML:2.0:assertion' } } ],
            'saml:NameID': [ { _: 'bar', '$': { Format: 'foo' } } ] } };
 
-      var samlObj = new SAML( { entryPoint: "foo" } );
+      var samlObj = new SAML( { logoutUrl: "foo" } );
       var logoutRequest = samlObj.generateLogoutRequest({
         user: {
           nameIDFormat: 'foo',
